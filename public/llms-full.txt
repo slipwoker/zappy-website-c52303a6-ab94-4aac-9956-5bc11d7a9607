@@ -2,13 +2,13 @@
 
 פיכפיכידע is a unique and playful educational brand that combines the fun art of bubble-blowing (פכפוך) with knowledge-building lessons. The brand has a creative, lighthearted personality with a clever wordplay name blending 'פכפוך' (bubbling/splashing) and 'ידע' (knowledge). The site requires a private registration page accessible only via a shared link, with form submissions forwarded to a designated email. The owner's logo is intended to be used as the website background.
 
-Source: https://example.com
+Source: https://pikhpikhida.zappy5.app
 
 ---
 
 ## למידה לפכפוך וגם ידע לגיל הרך והמבוגר — פיכפיכידע
 
-URL: https://example.com
+URL: https://pikhpikhida.zappy5.app
 Description: פיכפיכידע is a unique and playful educational brand that combines the fun art of bubble-blowing (פכפוך) with knowledge-building lessons. The brand has a creativ
 
 למידה לפכפוך וגם ידע לגיל הרך והמבוגר — פיכפיכידע
@@ -766,7 +766,7 @@ Description: פיכפיכידע is a unique and playful educational brand that c
 
 ## מדיניות פרטיות
 
-URL: https://example.com/privacy
+URL: https://pikhpikhida.zappy5.app/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -1034,7 +1034,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 ## הצהרת נגישות
 
-URL: https://example.com/accessibility
+URL: https://pikhpikhida.zappy5.app/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -1311,7 +1311,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 ## תנאי שימוש
 
-URL: https://example.com/terms
+URL: https://pikhpikhida.zappy5.app/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
