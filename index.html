@@ -223,7 +223,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="למידה לפכפוך וגם ידע לגיל הרך והמבוגר — פיכפיכידע">
     <meta name="twitter:description" content="פיכפיכידע is a unique and playful educational brand that combines the fun art of bubble-blowing (פכפוך) with knowledge-building lessons. The brand has a creativ">
-    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://pikhpikhida.zappy5.app#organization","name":"פיכפיכידע","url":"https://pikhpikhida.zappy5.app","description":"פיכפיכידע is a unique and playful educational brand that combines the fun art of bubble-blowing (פכפוך) with knowledge-building lessons. The brand has a creative, lighthearted personality with a clever wordplay name blending 'פכפוך' (bubbling/splashing) and 'ידע' (knowledge). The site requires a private registration page accessible only via a shared link, with form submissions forwarded to a designated email. The owner's logo is intended to be used as the website background."},{"@type":"WebSite","@id":"https://pikhpikhida.zappy5.app#website","url":"https://pikhpikhida.zappy5.app","name":"פיכפיכידע","publisher":{"@id":"https://pikhpikhida.zappy5.app#organization"}},{"@type":"ContactPage","@id":"https://pikhpikhida.zappy5.app#contactpage","url":"https://pikhpikhida.zappy5.app","name":"למידה לפכפוך וגם ידע לגיל הרך והמבוגר — פיכפיכידע","mainEntity":{"@id":"https://pikhpikhida.zappy5.app#organization"},"potentialAction":{"@type":"CommunicateAction","target":{"@type":"EntryPoint","urlTemplate":"https://pikhpikhida.zappy5.app/api/email/contact-form","actionPlatform":["http/method=POST"],"contentType":"application/json"},"instrument":[{"@type":"PropertyValue","name":"first_name","propertyID":"text","valueRequired":true,"description":"הכניסו שם פרטי"},{"@type":"PropertyValue","name":"last_name","propertyID":"text","valueRequired":true,"description":"הכניסו שם משפחה"},{"@type":"PropertyValue","name":"age","propertyID":"number","valueRequired":true,"description":"גיל"},{"@type":"PropertyValue","name":"phone","propertyID":"tel","valueRequired":true,"description":"05X-XXXXXXX"},{"@type":"PropertyValue","name":"email","propertyID":"email","valueRequired":true,"description":"your@email.com"},{"@type":"PropertyValue","name":"privacy_consent","propertyID":"checkbox","valueRequired":true}]}}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://pikhpikhida.zappy5.app#organization","name":"פיכפיכידע","url":"https://pikhpikhida.zappy5.app","description":"פיכפיכידע is a unique and playful educational brand that combines the fun art of bubble-blowing (פכפוך) with knowledge-building lessons. The brand has a creative, lighthearted personality with a clever wordplay name blending 'פכפוך' (bubbling/splashing) and 'ידע' (knowledge). The site requires a private registration page accessible only via a shared link, with form submissions forwarded to a designated email. The owner's logo is intended to be used as the website background.","address":{"@type":"PostalAddress","streetAddress":"פרחי העץ, יבנה, ישראל, 21457, ישראל"},"contactPoint":[{"@type":"ContactPoint","contactType":"customer service","email":"88991010nuahe@gmail.com","telephone":"+972506875621"}]},{"@type":"WebSite","@id":"https://pikhpikhida.zappy5.app#website","url":"https://pikhpikhida.zappy5.app","name":"פיכפיכידע","publisher":{"@id":"https://pikhpikhida.zappy5.app#organization"}},{"@type":"ContactPage","@id":"https://pikhpikhida.zappy5.app#contactpage","url":"https://pikhpikhida.zappy5.app","name":"למידה לפכפוך וגם ידע לגיל הרך והמבוגר — פיכפיכידע","mainEntity":{"@id":"https://pikhpikhida.zappy5.app#organization"},"potentialAction":{"@type":"CommunicateAction","target":{"@type":"EntryPoint","urlTemplate":"https://pikhpikhida.zappy5.app/api/email/contact-form","actionPlatform":["http/method=POST"],"contentType":"application/json"},"instrument":[{"@type":"PropertyValue","name":"first_name","propertyID":"text","valueRequired":true,"description":"הכניסו שם פרטי"},{"@type":"PropertyValue","name":"last_name","propertyID":"text","valueRequired":true,"description":"הכניסו שם משפחה"},{"@type":"PropertyValue","name":"age","propertyID":"number","valueRequired":true,"description":"גיל"},{"@type":"PropertyValue","name":"phone","propertyID":"tel","valueRequired":true,"description":"05X-XXXXXXX"},{"@type":"PropertyValue","name":"email","propertyID":"email","valueRequired":true,"description":"your@email.com"},{"@type":"PropertyValue","name":"privacy_consent","propertyID":"checkbox","valueRequired":true}]}}]}</script>
     <meta property="og:type" content="website">
   <meta property="og:locale" content="he_IL">
   
@@ -354,7 +354,7 @@
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="+972506875621" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
@@ -796,7 +796,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '+972506875621';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -1235,7 +1235,7 @@
 
       <!-- Card 1 -->
       <article class="itm-card itm-card--tall" id="zappy-section-12">
-        <div class="itm-quote-mark" aria-hidden="true">“</div>
+        <div class="itm-quote-mark" aria-hidden="true">"</div>
         <blockquote class="itm-quote-text">
           הילדה שלי לא הפסיקה לדבר על השיעור כל השבוע! היא חזרה הביתה עם עיניים זורחות, מספרת לכולם מה למדה על בועות ומדע. זו הייתה חוויה שגם מחנכת וגם מרגשת — בדיוק מה שחיפשנו.
         </blockquote>
@@ -1256,7 +1256,7 @@
 
       <!-- Card 2 -->
       <article class="itm-card itm-card--medium" id="zappy-section-13">
-        <div class="itm-quote-mark" aria-hidden="true">“</div>
+        <div class="itm-quote-mark" aria-hidden="true">"</div>
         <blockquote class="itm-quote-text">
           לא האמנתי שאפשר לשלב פכפוך עם למידה אמיתית — אבל פיכפיכידע הוכיח לי שטעיתי! הבן שלי, שבדרך כלל מתקשה לשבת בשקט, היה מרוכז ומלא התלהבות לאורך כל השיעור. ממש קסם.
         </blockquote>
@@ -1277,7 +1277,7 @@
 
       <!-- Card 3 -->
       <article class="itm-card itm-card--short" id="zappy-section-14">
-        <div class="itm-quote-mark itm-quote-mark--pink" aria-hidden="true">“</div>
+        <div class="itm-quote-mark itm-quote-mark--pink" aria-hidden="true">"</div>
         <blockquote class="itm-quote-text">
           חיפשתי פעילות שתשלב למידה לפכפוך וגם ידע לגיל הרך — ומצאתי בדיוק את זה. התוכן מותאם בצורה מדהימה, הילדים לומדים מבלי שהם מרגישים שהם לומדים. ממליצה בחום לכל הורה!
         </blockquote>
@@ -1524,9 +1524,7 @@
         <img src="/assets/education-logo.webp" alt="פיכפיכידע" class="logo">
         <p class="footer-tagline">עולם של ידע, שמחה ופלא — מגיע ישר אל הילד שלך. למידה פרמיום שמרגישה כמו הרפתקה.</p>
         <div class="footer-social" aria-label="רשתות חברתיות">
-          
-          
-          
+          <!-- All social media platforms disabled -->
         </div>
       </div>
 
@@ -1548,14 +1546,14 @@
         <ul class="footer-contact" aria-label="פרטי יצירת קשר">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:88991010nuahe@gmail.com">88991010nuahe@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:+972506875621">+972506875621</a></span>
           </li>
           <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+            <span class="contact-text">פרחי העץ, יבנה, ישראל, 21457, ישראל</span></a></li>
         </ul>
       </div>
 
@@ -1595,7 +1593,7 @@
   <div class="footer-bubble footer-bubble--3"></div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp" style="display:none">
     <i class="fab fa-whatsapp"></i>
   </a>
   
