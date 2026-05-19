@@ -1,0 +1,65 @@
+# פיכפיכידע — Generative Engine Optimization Map
+
+> פיכפיכידע is a unique and playful educational brand that combines the fun art of bubble-blowing (פכפוך) with knowledge-building lessons. The brand has a creative, lighthearted personality with a clever wordplay name blending 'פכפוך' (bubbling/splashing) and 'ידע' (knowledge). The site requires a private registration page accessible only via a shared link, with form submissions forwarded to a designated email. The owner's logo is intended to be used as the website background.
+
+---
+
+## Pages
+
+### בית
+https://-c52303a6.zappy5.app
+פיכפיכידע is a unique and playful educational brand that combines the fun art of bubble-blowing (פכפוך) with knowledge-building lessons. The brand has a creativ
+
+## Legal & Policy
+
+### Privacy Policy
+https://-c52303a6.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-c52303a6.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-c52303a6.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://-c52303a6.zappy5.app
+- Endpoint: https://-c52303a6.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `first_name` (text, required)
+  - `last_name` (text, required)
+  - `age` (number, required)
+  - `phone` (tel, required)
+  - `email` (email, required)
+  - `privacy_consent` (checkbox, required)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About פיכפיכידע
+פיכפיכידע is a unique and playful educational brand that combines the fun art of bubble-blowing (פכפוך) with knowledge-building lessons. The brand has a creative, lighthearted personality with a clever wordplay name blending 'פכפוך' (bubbling/splashing) and 'ידע' (knowledge). The site requires a private registration page accessible only via a shared link, with form submissions forwarded to a designated email. The owner's logo is intended to be used as the website background.
+
+## Target Audience
+- ילדים והורים
+
+## Industry
+Education
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-c52303a6.zappy5.app/sitemap.xml
+- Robots: https://-c52303a6.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-c52303a6.zappy5.app/llms-full.txt
