@@ -605,6 +605,7 @@ Description: פיכפיכידע is a unique and playful educational brand that c
 
 
 
+
 הזמנה אישית בלבד
 
 ## הצטרפו אלינו לעולם של פיכפיכידע
@@ -657,10 +658,7 @@ Description: פיכפיכידע is a unique and playful educational brand that c
 
 
 
-
-
-שלחו את הפרטים שלי
-
+Sending...
 
 
 
